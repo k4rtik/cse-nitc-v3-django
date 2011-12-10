@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}News &amp; Announcements{% endblock %}
+
+{% block content %}
+{% if latest_news_items %}
+    <ul>
+    {% for item in latest_news_items %}
+        {% if item.published  %}
+	    {% if item.content %}
+                <li><a href="{{ item.id }}/">{{ item.heading }}</a></li>
+            {% else %}
+                <li><a href="http://192.168.40.193/media/{{ item.attachment }}">{{ item.heading }}</a></li>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No news items are available.</p>
+{% endif %}
+{% endblock content%}

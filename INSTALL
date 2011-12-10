@@ -1,0 +1,18 @@
+# Installation steps for Django based CSED Website
+1. install lamp-server and phpmyadmin
+2. install libapache2-mod-wsgi (ubuntu) or mod_wsgi (fedora)
+2.1 install python-mysqldb (ubuntu) or MySQL-python (fedora)
+2.2 install python-docutils
+3. add configuration from csed-httpd.conf to apache's httpd.conf and restart apache
+4. install latest stable release of django (currently 1.2.1)
+5. create directories 'django' and django/media in /home
+6. change the permissions of django directory to the current user
+7. change into the django directory
+8. django-admin.py startproject csed
+9. cd csed
+10. copy django-backup/csed/settings.py to /home/django/csed/settings.py after taking a backup of original settings.py (backup-settings.py)
+11. copy django-backup/csed/apache directory to csed
+12. create a database as given in settings.py
+13. copy directories news and people in the project
+14. copy all directories under media to your media
+15. import the database from csedwb.sql.gz if you have a previous dump

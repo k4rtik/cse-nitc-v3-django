@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+<title>{% block title %}{% endblock %} | Department of Computer Science &amp; Engineering, NIT Calicut</title>
+
+<!-- Meta Tags -->
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="robots" content="index, follow" />
+
+<meta name="description" content="{% block description %}{% endblock %}" />
+<meta name="keywords" content="{% block keywords %}nitc, csed nitc, nit calicut, csed nit calicut, department of cse nit calicut, department of computer science & engineering, {% endblock %}" />
+<meta name="author" content="Kartik" />
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="" />
+
+<!-- CSS -->
+<link rel="stylesheet" href="/media/templates/styles/style2.css" media="screen,projection" type="text/css" />
+<link rel="stylesheet" href="/media/templates/styles/print.css" media="print" type="text/css" />
+
+<!-- RSS -->
+
+<link rel="alternate" href="" title="RSS Feed" type="application/rss+xml" />
+
+<!-- JavaScript -->
+<script src="" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="header">
+
+ <div id="branding">
+ <h1>Department of Computer Science &amp; Engineering</h1>
+ <h2>National Institute of Technology Calicut</h2>
+ </div><!-- branding -->
+
+ <div id="navigation">
+ <ul>
+	<li><a href="/">Home</a></li>
+	<li><a href="/about/">About</a>
+	<ul>
+	<li><a href="/about/profile/">Profile</a></li>
+	<li><a href="/about/vision-mission/">Vision &amp; Mission</a></li>
+	<li><a href="/about/history/">History</a></li>
+	<li><a href="/about/why-csed/">Why our Department?</a></li>
+	</ul></li>
+	<li><a href="/academics/">Academics</a>
+	<ul>
+	<li><a href="/academics/programs/">Programs</a></li>
+	<li><a href="/academics/research/">Research</a></li>
+	<li><a href="/academics/placements-internships/">Placements &amp; Internships</a></li>
+	</ul></li>
+	<li><a href="/people/">People</a>
+	<ul>
+	<li><a href="/people/faculty/">Faculty</a></li>
+	<li><a href="/people/staff/">Staff</a></li>
+	<li><a href="/people/students/">Students</a></li>
+	<li><a href="/people/alumni/">Alumni</a></li>
+	</ul></li>
+	<li><a href="/resources/">Resources</a>
+	<ul>
+	<li><a href="/resources/labs/">Laboratories</a></li>
+	<li><a href="/resources/services/">Services</a></li>
+	<li><a href="/resources/others/">Other Resources</a></li>
+	</ul></li>
+	<li><a href="/activities/">Activities</a>
+	<ul>
+	<li><a href="/activities/academic-events/">Academic Events</a></li>
+	<li><a href="/activities/student-activities/">Student Activities</a></li>
+	<li><a href="/activities/others/">Other Events</a></li>
+	</ul></li>
+	<li><a href="/news/">News &amp; Announcements</a></li>
+	<li><a href="/contact-us/">Contact Us</a></li>
+ </ul>
+ </div><!-- navigation -->
+
+</div><!-- header -->
+<!--<div class="clear"></div>-->
+<div id="sidebar">
+
+<div id="quicklinks">
+<h4>Quick Links</h4>
+<ul>
+	<li>Phone Directory</li>
+	<li>Join as Faculty</li>
+	<li>Web Mail</li>
+	<li>NITC Home</li>
+</ul>
+</div><!-- quicklinks -->
+
+<div id="search">
+<p>Search:<br />
+<input type="text" name="search"></p>
+</div><!-- search -->
+
+</div><!-- sidebar -->
+
+<div id="content">
+{% block content %}{% endblock content%}
+</div><!-- content -->
+<!--<div class="clear"></div>-->
+
+<div id="footer">
+<ul>
+	<li><a href="/sitemap/">Sitemap</a></li>
+	<li><a href="/terms/">Copyright/Terms of Use/Privacy Policy</a></li>
+	<li><a href="/accessibility/">Accessibility Statement</a></li>
+	<li><a href="/feedback/">Feedback</a></li>
+	<li><a href="/ideas/">Impressum/Ideas</a></li>
+	<li><a href="/credits/">Credits</a></li>
+</ul>
+</div><!-- footer -->
+<!--<div class="clear"></div>-->
+</div><!-- container -->
+
+</body>
+</html>
+

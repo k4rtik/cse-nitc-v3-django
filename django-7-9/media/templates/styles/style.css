@@ -1,0 +1,243 @@
+/* ----- CSS ----- */
+
+*{
+margin:;
+padding:;
+font-family:;
+font-size:;
+}
+body{
+margin:;
+padding:;
+background:;
+}
+
+/* ----- IDS ----- */
+
+#container{
+width:960px;
+margin:auto;
+padding:;
+background:;
+text-align:;
+border: #000000 1px dotted;
+}
+#header{
+	margin:;
+	/*border: #000000 1px dotted;*/
+}
+#branding{
+	min-height: 180px;
+	background: url('/media/img/csed/nitc-logo.png') left no-repeat;
+	margin: 10px 10px;
+	padding-left: 160px;
+	border: #000000 2px dotted;
+}
+#navigation{
+	/*min-height: 60px;*/
+	/*border: #000000 1px dotted;*/
+}
+#navigation ul{
+	display: block;
+	margin-left: -55px;
+}  
+#navigation li{
+	width: 120px;
+	text-align: center;
+	list-style: none;
+	/*display: block;*/
+	float: left;
+}
+#navigation li ul{
+	display: none;
+}
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+#sidebar{
+	float: left;
+	/*display: inline;*/
+	width: 220px;
+	margin-left: 10px;
+	margin-right: 10px;
+	/*border: #000000 1px dotted;*/
+}
+#content{
+width: 700px;
+float: left;
+/*display: inline;*/
+/*margin-left: 10px;*/
+/*margin-right: 10px;*/
+
+/*border: #000000 1px dotted;*/
+position:;
+/*float:;*/
+/*clear: both;*/
+/*width:;*/
+margin: 10px 10px;
+padding:;
+/*padding-left: 240px;*/
+background:;
+text-align:;
+/*min-height: 320px;*/
+}
+ 
+#footer{
+	/*clear: both;*/
+	/*border: #000000 1px dotted;*/
+	/*min-height: 60px;*/
+}
+#footer ul{
+	display: block;
+	margin-left: -55px;
+}  
+#footer li{
+	width: 160px;
+	text-align: center;
+	list-style: none;
+	/*display: block;*/
+	float: left;
+}
+
+
+/* ----- CLASSES ----- */
+
+.hide{
+display:none;
+}
+.show{
+display:block;
+}
+
+/* ----- HEADINGS ----- */
+
+h1{
+}
+h2{
+}
+h3{
+}
+h4{
+}
+
+/* ----- PARAGRAPHS ----- */
+
+p{
+font:;
+color:;
+
+font-size:;
+font-family:;
+font-style:;
+font-weight:;
+font-variant:;
+
+text-align:;
+text-indent:;
+text-decoration:;
+text-shadow:;
+text-transform:;
+
+letter-spacing:;
+word-spacing:;
+}
+
+/* ----- LISTS ----- */
+
+li{
+list-style:;
+
+list-style-type:;
+list-style-image:;
+list-style-position:;
+float:;
+margin:;
+padding:;
+}
+li p{
+}
+ol{
+}
+ul{
+}
+ol li{
+}
+ul li{
+}
+
+/* ----- IMAGES ----- */
+
+img{
+}
+img a{
+}
+img a:hover{
+}
+
+/* ----- LINKS ----- */
+
+a{
+font:;
+color:;
+text-decoration:;
+border-bottom:;
+}
+a:hover{
+color:;
+background-color:;
+border-bottom:;
+}
+a:visited, a:active, a:focus{
+color:;
+background-color:;
+border-bottom:;
+}
+a:visited{
+}
+a:active{
+}
+a:focus{
+}
+
+/* ----- FORMS ----- */
+
+form{
+}
+fieldset{
+}
+legend{
+}
+label{
+}
+input{
+}
+textarea{
+}
+input, textarea{
+}
+select{
+}
+optgroup{
+}
+option{
+}
+
+/* ----- TABLES ----- */
+
+table{
+}
+caption{
+}
+thead{
+}
+tbody{
+}
+tfoot{
+}
+tr{
+}
+tr .alt{
+}
+th{
+}
+td{
+}
+

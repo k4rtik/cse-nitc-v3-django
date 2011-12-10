@@ -1,0 +1,8 @@
+This was an attempt to create a dynamic site using Python based web framework - Django.
+
+The dynamic part of the site was going really well with this, but it was not practical
+to implement all the basic features required for maintenance of the site by the non-technical
+staff members.
+
+Major work was done during May 2010, see the screenshots to have a look at the decent admin
+interface made available with Django.

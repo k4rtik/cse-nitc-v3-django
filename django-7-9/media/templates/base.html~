@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+<title>{% block title %}{% endblock %} | Department of Computer Science &amp; Engineering, NIT Calicut</title>
+
+<!-- Meta Tags -->
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="robots" content="index, follow" />
+
+<meta name="description" content="{% block description %}{% endblock %}" />
+<meta name="keywords" content="{% block keywords %}nitc, csed nitc, nit calicut, csed nit calicut, department of cse nit calicut, department of computer science & engineering, {% endblock %}" />
+<meta name="author" content="Kartik" />
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="" />
+
+<!-- CSS -->
+<link rel="stylesheet" href="/media/templates/styles/style.css" media="screen,projection" type="text/css" />
+<link rel="stylesheet" href="/media/templates/styles/print.css" media="print" type="text/css" />
+
+<!-- RSS -->
+
+<link rel="alternate" href="" title="RSS Feed" type="application/rss+xml" />
+
+<!-- JavaScript -->
+<script src="" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="header">
+
+ <div id="branding">
+ <h1>Department of Computer Science &amp; Engineering</h1>
+ <h2>National Institute of Technology Calicut</h2>
+ </div><!-- branding -->
+
+ <div id="navigation">
+ <ul>
+	<li>Home</li>
+	<li>About
+	<ul>
+	<li>Profile</li>
+	<li>Vision &amp; Mission</li>
+	<li>History</li>
+	<li>Why our Department?</li>
+	</ul></li>
+	<li>Academics
+	<ul>
+	<li>Programs</li>
+	<li>Research</li>
+	<li>Placements &amp; Internships</li>
+	</ul></li>
+	<li>People
+	<ul>
+	<li>Faculty</li>
+	<li>Staff</li>
+	<li>Students</li>
+	<li>Alumni</li>
+	</ul></li>
+	<li>Resources
+	<ul>
+	<li>Laboratories</li>
+	<li>Services</li>
+	<li>Other Resources</li>
+	</ul></li>
+	<li>Activities
+	<ul>
+	<li>Academic Events</li>
+	<li>Student Activities</li>
+	<li>Other Events</li>
+	</ul></li>
+	<li>News &amp; Announcements</li>
+	<li>Contact Us</li>
+ </ul>
+ </div><!-- navigation -->
+
+</div><!-- header -->
+<div class="clear"></div>
+<div id="sidebar">
+
+<div id="quicklinks">
+<ul>
+	<li>Phone Directory</li>
+	<li>Join as Faculty</li>
+	<li>Web Mail</li>
+	<li>NITC Home</li>
+</ul>
+</div><!-- quicklinks -->
+
+<div id="search">
+<p>Search:<br />
+<input type="text" name="search"></p>
+</div><!-- search -->
+
+</div><!-- sidebar -->
+
+<div id="content">
+hkshg jhgkjdsfhgkjdfh dhgk dhgkjd hgkjhdkjd hgkd kdhgkdjhgkdhg skjg hgk skhg kshgk k gksf fg dkg g  d df fd fdh fd fh f hf hfghfg f 
+{% block content %}{% endblock content%}
+</div><!-- content -->
+
+<div id="footer">
+<ul>
+	<li>Sitemap</li>
+	<li>Copyright/Terms of Use/Privacy Policy</li>
+	<li>Accessibility Statement</li>
+	<li>Feedback</li>
+	<li>Impressum/Ideas</li>
+	<li>Credits</li>
+</ul>
+</div><!-- footer -->
+<div class="clear"></div>
+</div><!-- container -->
+
+</body>
+</html>
+

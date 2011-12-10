@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}{{ newsitem.heading }}{% endblock %}
+
+{% block content %}
+<h1>{{ newsitem }}</h1>
+<p>{{ newsitem.content }}</p>
+{% if newsitem.attachment %}
+<p><a href="http://192.168.40.193/media/{{ newsitem.attachment }}">Attached file</a></p>
+{% endif %}
+
+<p><a href="http://192.168.40.193/news/">Back to News index</a></p>
+{% endblock content%}
